@@ -10,4 +10,4 @@ A project I wrote to help me better understand java.
 Notes
 ======
 
-* The white_player[] and black_player[] Piece arrays in the Game class are only used for instantiating the Pieces on startup. All subsequent drawing is done through getting the individual Piece's from the game board -- see DrawGame.pantComponent(). This makes it easy to save/load the game.
+* The white_player[] and black_player[] Piece arrays in the Game class are only used for instantiating the Pieces on startup. All subsequent drawing is done through getting the individual Piece's from the game board -- see DrawGame.paintComponent(). This makes it easy to save/load the game.
